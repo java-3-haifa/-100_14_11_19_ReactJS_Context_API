@@ -1,0 +1,63 @@
+.Card {
+    width: calc(100% / 4 - 30px);
+    margin: 15px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.75);
+}
+
+.Card img {
+    width: 80%;
+    display: inline-block;
+}
+
+.Card .Card-title {
+    margin: 0 0 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    width:100%;
+    padding:10px;
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+
+.Card .Card-title:hover {
+    background-color: #f6f6f6;
+}
+
+.Card .Card-desc {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.Card .Card-price{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 15px 0;
+    width:100%;
+}
+
+.Card .Card-control {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.Card .Card-control button {
+    font-size: 0.8rem;
+}
+
+.Card .Card-control .material-icons {
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.Card .Card-control .form-control {
+    text-align: center;
+}

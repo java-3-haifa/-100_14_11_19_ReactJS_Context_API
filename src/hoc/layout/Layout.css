@@ -1,0 +1,12 @@
+.Nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+    position: relative;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.Nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
